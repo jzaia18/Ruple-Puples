@@ -37,7 +37,7 @@ void view_story() {
 
 // Removes story, shm, and sem
 void remove_story() {
-  //view_story(); // Prints out story
+  view_story(); // Prints out story
 
   int sd = 0; //Later to be used as sem/shm desc
   wait(&sd);
